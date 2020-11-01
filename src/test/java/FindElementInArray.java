@@ -2,7 +2,7 @@
 
 public class FindElementInArray {
     public static void main(String[] args) {
-        int[] array = {23, 34, 46, 231, 65, 7, 78};
+        int[] array = {23, 34, 46, 231, 65, 8, 78};
         int valueForSearch = 8;
 
         boolean indexFound=false;
