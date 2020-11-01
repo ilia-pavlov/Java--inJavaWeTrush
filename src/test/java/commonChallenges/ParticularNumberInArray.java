@@ -1,4 +1,4 @@
-//write a function to check if an array contains a particular number:
+package commonChallenges;//write a function to check if an array contains a particular number:
 //check([1,2,3,4,5,],     3 -> true
 
 public class ParticularNumberInArray {

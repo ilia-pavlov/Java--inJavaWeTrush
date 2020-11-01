@@ -1,4 +1,4 @@
-//1. Loop
+package commonChallenges;//1. Loop
 //2. Go though number from 1 to 10
 //3. Filter out only even numbers
 //4. Print "hello there!"

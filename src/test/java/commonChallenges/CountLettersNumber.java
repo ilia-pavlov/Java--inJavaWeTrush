@@ -1,6 +1,6 @@
-//How would you count the number of letters 'l' ?
+package commonChallenges;//How would you count the number of letters 'l' ?
 
-public class CountNumberOFLetters {
+public class CountLettersNumber {
     public static void main(String[] args){
         String input = "hello world";
         int result = 0;

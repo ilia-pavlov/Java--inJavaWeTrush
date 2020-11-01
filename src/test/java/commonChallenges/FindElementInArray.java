@@ -1,4 +1,4 @@
-//find index of integer 7 in Array {23,34,46,231,65,7,78}
+package commonChallenges;//find index of integer 7 in Array {23,34,46,231,65,7,78}
 
 public class FindElementInArray {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package commonChallenges;
+
 //write the function then takes an array of integers the sum of all elements
 //sumArray([1,2,3,4,5]) -> 15
 public class SumOfAllElements {

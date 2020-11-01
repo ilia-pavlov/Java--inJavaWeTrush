@@ -1,4 +1,4 @@
-// print out message (ONLY) if no elements found
+package commonChallenges;// print out message (ONLY) if no elements found
 
 public class ElementNotFound {
     public static void main(String[] args) {

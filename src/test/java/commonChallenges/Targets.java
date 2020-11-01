@@ -1,4 +1,4 @@
-//Given an array of integers nums and integer target,
+package commonChallenges;//Given an array of integers nums and integer target,
 //return indices of the two numbers such then they add up to target;
 //You can return the answer in any order.
 
