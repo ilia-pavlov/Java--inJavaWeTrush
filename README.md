@@ -12,3 +12,9 @@
 10. ArraLength
 ### practicular interviwe tasks
 1.  DigitsManipulations
+2.
+3.
+### Array and List
+1. AddVariablesIntoArrayList
+2. LinkedListFunctions
+3. ManipulationWithArrayAndList
