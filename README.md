@@ -12,7 +12,7 @@
 10. ArraLength
 ### practicular interviwe tasks
 1.  DigitsManipulations
-2.
+2. TeamSkills
 3.
 ### Array and List
 1. AddVariablesIntoArrayList
