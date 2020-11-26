@@ -13,7 +13,10 @@
 ### practicular interviwe tasks
 1.  DigitsManipulations
 2. TeamSkills
-3.
+### Reading Inputs (Mortgage Calculator)
+1. Age
+2. Name
+3. Mortgage Calculator
 ### Array and List
 1. AddVariablesIntoArrayList
 2. LinkedListFunctions
