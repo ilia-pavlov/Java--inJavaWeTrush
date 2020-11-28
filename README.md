@@ -17,6 +17,8 @@
 1. Age
 2. Name
 3. Mortgage Calculator
+4. CarLoan
+5. TimeToDistance
 ### Array and List
 1. AddVariablesIntoArrayList
 2. LinkedListFunctions
