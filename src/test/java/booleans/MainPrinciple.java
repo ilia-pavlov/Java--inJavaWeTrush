@@ -1,6 +1,6 @@
-package Booleans;
+package booleans;
 
-public class mainPrinciple {
+public class MainPrinciple {
     public static void main(String[] args){
         int x = 1;
         int y = 1;

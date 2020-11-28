@@ -6,7 +6,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class time {
+public class Time {
     private static void convert( int i )
     {
         int hours = i / 3600;

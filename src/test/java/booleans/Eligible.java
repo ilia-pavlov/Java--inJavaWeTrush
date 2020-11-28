@@ -1,4 +1,4 @@
-package Booleans;
+package booleans;
 
 public class Eligible {
     public static void main(String[] args){

@@ -1,6 +1,6 @@
-package Booleans;
+package booleans;
 
-public class highIncome {
+public class HighIncome {
     public static void main (String[] args){
         int income = 750_000;
         boolean hasHighIncome = (income > 100_000);

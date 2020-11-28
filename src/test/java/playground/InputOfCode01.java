@@ -1,6 +1,6 @@
-package Playground;
+package playground;
 
-public class inputOfCode01 {
+public class InputOfCode01 {
     public static void main (String[] args){
         int a =7;
         int b = 9;
