@@ -10,16 +10,25 @@
 8. CountLettersNumber
 9. ChangeLowerToUpperCases
 10. ArraLength
-### practicular interviwe tasks
-1.  DigitsManipulations
-2. TeamSkills
-### Reading Inputs (Mortgage Calculator)
+### array and List
+1. AddVariablesIntoArrayList
+2. LinkedListFunctions
+3. ManipulationWithArrayAndList
+### boolean
+1. Eligible
+2. HighIncome
+### reading Inputs (Mortgage Calculator)
 1. Age
 2. Name
 3. Mortgage Calculator
 4. CarLoan
 5. TimeToDistance
-### Array and List
-1. AddVariablesIntoArrayList
-2. LinkedListFunctions
-3. ManipulationWithArrayAndList
+### playground
+1. inputofCode01
+### ifAndElse
+1. Cities
+2. EconomyAndFirstClass
+3. SwitchRole
+### practicular interviwe tasks
+1. DigitsManipulations
+2. TeamSkills
