@@ -16,6 +16,7 @@ public class TimeToDistance {
 
         convert(seconds);
     }
+
     private static void convert(int i) {
         int hours = i / 3600;
         i = i - hours * 3600;
