@@ -23,6 +23,7 @@
 3. Mortgage Calculator
 4. CarLoan
 5. TimeToDistance
+6. PayCheck Calculator
 ### playground
 1. inputofCode01
 ### ifAndElse
