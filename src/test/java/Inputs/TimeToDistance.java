@@ -4,11 +4,8 @@ import java.util.Scanner;
 
 public class TimeToDistance {
     public static void main(String[] args) {
-        float distance = 0;
-        float speed = 0;
-
-        distance = input("Distance to Location: ");
-        speed = input("Expected Speed: ");
+        float distance = input("Distance to Location: ");
+        float speed = input("Expected Speed: ");
 
         int seconds = time(distance, speed);
         convert(seconds);
