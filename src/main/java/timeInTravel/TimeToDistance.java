@@ -1,9 +1,13 @@
-package Inputs;
+package timeInTravel;
 
 import java.util.Scanner;
 
 public class TimeToDistance {
     public static void main(String[] args) {
+
+       // var travel = new Travel();
+
+
         float distance = input("Distance to Location: ");
         float speed = input("Expected Speed: ");
 

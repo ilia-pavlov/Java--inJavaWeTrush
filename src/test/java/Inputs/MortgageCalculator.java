@@ -8,25 +8,31 @@ public class MortgageCalculator {
     final static byte PERCENT = 100;
 
     public static void main(String[] args) {
-        int principal = (int) readNumber("Principal: ", 1000, 1_000_000);
+        int  principal = (int) readNumber("Principal: ", 1000, 1_000_000);
         float annualInterest = (float) readNumber("Annual Interest: ", 1, 50);
         byte years = (byte) readNumber("Period (Year): ", 1, 30);
 
         double mortgage = calculateMortgage(principal, annualInterest, years);
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
-        System.out.println();
-        System.out.println("MORTGAGE");
-        System.out.println("--------");
-        System.out.println("Monthly Payments: " + mortgageFormatted);
 
-        System.out.println();
-        System.out.println("PAYMENT SCHEDULE");
-        System.out.println("----------------");
+        printFront(mortgageFormatted);
+
         for (short month = 1; month <= years * MONTH_IN_YEAR; month++) {
             double balance = remainderLoanBalance(principal, annualInterest, years, month);
 
             System.out.println(NumberFormat.getCurrencyInstance().format(balance));
         }
+    }
+
+    public static void printFront(String text){
+
+        System.out.println();
+        System.out.println("MORTGAGE");
+        System.out.println("--------");
+        System.out.println("Monthly Payments: " + text);
+        System.out.println();
+        System.out.println("PAYMENT SCHEDULE");
+        System.out.println("----------------");
     }
 
     public static double readNumber(String prompt, double min, double max) {
