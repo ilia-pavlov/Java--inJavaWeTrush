@@ -8,7 +8,7 @@ public class MortgageCalculator {
     final static byte PERCENT = 100;
 
     public static void main(String[] args) {
-        int  principal = (int) readNumber("Principal: ", 1000, 1_000_000);
+        int principal = (int) readNumber("Principal: ", 1000, 1_000_000);
         float annualInterest = (float) readNumber("Annual Interest: ", 1, 50);
         byte years = (byte) readNumber("Period (Year): ", 1, 30);
 
@@ -24,7 +24,7 @@ public class MortgageCalculator {
         }
     }
 
-    public static void printFront(String text){
+    public static void printFront(String text) {
 
         System.out.println();
         System.out.println("MORTGAGE");
