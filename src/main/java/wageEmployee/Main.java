@@ -1,4 +1,4 @@
-package WageEmployee;
+package wageEmployee;
 
 
 public class Main {

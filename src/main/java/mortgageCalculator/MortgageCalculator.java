@@ -1,4 +1,4 @@
-package MortgageCalculator;
+package mortgageCalculator;
 
 
 public class MortgageCalculator {
