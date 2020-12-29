@@ -1,5 +1,7 @@
 package WageEmployee;
 
+import java.text.NumberFormat;
+
 public class Employee {
     private int baseSalary;
     private int hourlyRate;
@@ -14,17 +16,23 @@ public class Employee {
         this.baseSalary = baseSalary;
     }
 
-    public int getBaseSalary(){
-        return baseSalary;
-    }
-
-    public int getHourlyRate() {
-        return hourlyRate;
-    }
-
     public void setHourlyRate(int hourlyRate) {
         if(hourlyRate <= 0)
         throw new IllegalArgumentException("Again nice try! BUT.....hours rate cannot be 0 or less.");
         this.hourlyRate = hourlyRate;
+    }
+
+    private int getBaseSalary(){
+        return baseSalary;
+    }
+
+    private int getHourlyRate() {
+        return hourlyRate;
+    }
+
+    public String formatCurrency() {
+        int wage = calculateWage(Console.valueInput("Text your overtime: "));
+        String wageFormatted = NumberFormat.getCurrencyInstance().format(wage);
+        return wageFormatted;
     }
 }
