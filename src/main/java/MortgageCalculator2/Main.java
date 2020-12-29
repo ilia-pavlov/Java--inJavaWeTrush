@@ -1,9 +1,10 @@
-package MorrgageCalculator;
+package MortgageCalculator2;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-public class MortgageCalculator {
+
+public class Main {
     final static byte MONTH_IN_YEAR = 12;
     final static byte PERCENT = 100;
 
@@ -14,7 +15,6 @@ public class MortgageCalculator {
 
         double mortgage = calculateMortgage(principal, annualInterest, years);
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
-
         printFront(mortgageFormatted);
 
         for (short month = 1; month <= years * MONTH_IN_YEAR; month++) {
@@ -81,3 +81,4 @@ public class MortgageCalculator {
         return mortgage;
     }
 }
+
