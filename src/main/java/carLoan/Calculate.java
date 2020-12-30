@@ -2,7 +2,7 @@ package carLoan;
 
 import java.text.NumberFormat;
 
-public class calculate {
+public class Calculate {
     private static final byte MONTH_IN_YEAR = 12;
     private static final byte PERCENT = 100;
     private static float monthlyInterest;

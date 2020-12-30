@@ -8,7 +8,7 @@ public class CarLoan {
         float annualInterest = Input.input("Annual Interest Rate: ");
         byte numberOfMonths = (byte) Input.input("Period (Months): ");
 
-        String autoLoanFormatted = calculate.formatCurrency(principal, annualInterest, numberOfMonths);
+        String autoLoanFormatted = Calculate.formatCurrency(principal, annualInterest, numberOfMonths);
         System.out.println("Auto Loan: " + autoLoanFormatted);
     }
 
