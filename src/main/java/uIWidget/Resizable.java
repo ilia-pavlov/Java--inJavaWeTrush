@@ -1,4 +1,4 @@
-package UIWidget;
+package uIWidget;
 
 public interface Resizable {
     void resize(int size);

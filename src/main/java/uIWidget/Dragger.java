@@ -1,4 +1,4 @@
-package UIWidget;
+package uIWidget;
 
 public class Dragger {
     public void drag(UIWidget draggable) {

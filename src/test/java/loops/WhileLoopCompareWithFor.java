@@ -1,4 +1,4 @@
-package Loops;
+package loops;
 
 public class WhileLoopCompareWithFor {
     public static void main(String[] args){
