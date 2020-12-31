@@ -1,4 +1,17 @@
-##  CodingMok
+### Tiny apps (src/main/java)
+1. carLoan
+2. guiClickButton
+3. mortgageCalculator
+4. myTube
+5. taxCalculator
+6. textBox
+7. timeInTravel
+8. uIControl
+9. uIWidget
+10. wageEmployee 
+<br>-=--=---=-=-=-=-=-=-=-==-=-=--=-=-=-=-=-=-=-=-=-=-=-=</br>
+##  CodingMok (src/test)
+<br>-=--=---=-=-=-=-=-=-=-==-=-=--=-=-=-=-=-=-=-=-=-=-=-=</br>
 ### common challenges for knowledge of the algorithm
 1. TryCatch
 2. Targets
